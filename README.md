@@ -5,7 +5,14 @@
 ## Introduction
  - The SI-2025 Digital VLSI course served as a curated collection of learning materials designed to support digital VLSI education. It included Verilog coding, simulation exercises, and guided lab sessions aligned with academic curricula and industry standards. This course enabled learners to explore core digital design concepts, such as sequential and combinational circuits, through hands-on coding and simulations. With a focus on practical implementation, the content helps build a solid foundation in hardware description languages(Verilog) and modern design workflows. This has made it an ideal resource for students and enthusiasts aiming to strengthen their understanding and application of digital system design principles and VLSI.
 ## VLSI INTRO
+ - VLSI stands for Very-Large-Scale Integration, a process of creating integrated circuits by combining thousands to millions of transistors onto a single chip. It revolutionized the field of electronics by making devices smaller, faster, and more energy-efficient. VLSI technology is the foundation for modern microprocessors, memory chips, and other complex integrated circuits used in a wide range of applications, from consumer electronics to advanced computing systems.
 ![vlsi](https://www.tessolve.com/wp-content/uploads/2023/12/memory-testing-post.jpg)
+## FPGA 
+- FPGA stands for Field Programmable Gate Array. It is a type of integrated circuit that can be programmed by the user after manufacturing to perform specific tasks. Unlike traditional logic devices such as application-specific integrated circuits (ASICs), FPGAs are designed to be reprogrammable, making them highly versatile and adaptable for various applications.FPGAs consist of an array of programmable logic blocks (PLBs) and a network of programmable interconnects. These components can be configured to perform complex operations or serve as simple logic gates.
+- The picture given below is a Basys3 Artix-7 FPGA Trainer Board by [Digilent](https://digilent.com/shop/basys-3-artix-7-fpga-trainer-board-recommended-for-introductory-users/) 
+  
+![Basys3 FPGA development board](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1280x1280/products/106/6256/Basys3-Rev.C-box-1000__84357.1730220596.png?c=2&_gl=1*evk1u4*_gcl_au*MTI3MjE3OTk1MC4xNzQ5NDYyMjYx*_ga*Mzc0NDMwMzkyLjE3NDk0NjIyNjI.*_ga_JSPEFFCPBT*czE3NDk0NjIyNjIkbzEkZzAkdDE3NDk0NjIyNjIkajYwJGwwJGgyMjgwMjU2ODY.)
+
 ## RESOURCES
 ### LECTURE NOTES
   1. [Intro](https://github.com/silicon-vlsi/SI-2025-DigitalVLSI/blob/main/docs/L1_Introduction_Course_Outline.pdf)
