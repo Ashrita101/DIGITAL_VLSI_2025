@@ -1,8 +1,9 @@
 # DIGITAL_VLSI_2025
 ![gif](https://i.gifer.com/QWc9.gif)
 ## Abstract
-
+ - The SI-2025 Digital VLSI is a comprehensive educational platform for learning and practicing digital VLSI design. It offers a wide range of Verilog-based examples, simulation testbenches, and lab experiments aimed at reinforcing theoretical knowledge through practical implementation. Structured to support both students and professionals, the course emphasized hands-on learning using modern digital design tools and methodologies. By bridging the gap between classroom learning and industry requirements, it has enabled users to develop strong design and verification skills. This resource is particularly valuable for those pursuing careers in digital system design, ASIC development, and FPGA-based implementation
 ## Introduction
+ - The SI-2025 Digital VLSI course served as a curated collection of learning materials designed to support digital VLSI education. It included Verilog coding, simulation exercises, and guided lab sessions aligned with academic curricula and industry standards. This course enabled learners to explore core digital design concepts, such as sequential and combinational circuits, through hands-on coding and simulations. With a focus on practical implementation, the content helps build a solid foundation in hardware description languages(Verilog) and modern design workflows. This has made it an ideal resource for students and enthusiasts aiming to strengthen their understanding and application of digital system design principles and VLSI.
 ## VLSI INTRO
 ![vlsi](https://www.tessolve.com/wp-content/uploads/2023/12/memory-testing-post.jpg)
 ## RESOURCES
