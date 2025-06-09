@@ -1,5 +1,6 @@
 # DIGITAL_VLSI_2025
-![vlsi](https://i.gifer.com/origin/46/462c6f5f67c13830cd9fcdbfc7b55ded.gif)
+![gif](https://i.gifer.com/QWc9.gif)
+![vlsi](https://i.gifer.com/QWc9.gif)
 ## LECTURE NOTES
   1. [Intro](https://github.com/silicon-vlsi/SI-2025-DigitalVLSI/blob/main/docs/L1_Introduction_Course_Outline.pdf)
   2. [Combinational design](https://github.com/silicon-vlsi/SI-2025-DigitalVLSI/blob/main/docs/L2_Review_Combinational_Logic_Design.pdf)
