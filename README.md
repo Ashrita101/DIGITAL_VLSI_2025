@@ -13,6 +13,52 @@
   
 ![Basys3 FPGA development board](https://cdn11.bigcommerce.com/s-7gavg/images/stencil/1280x1280/products/106/6256/Basys3-Rev.C-box-1000__84357.1730220596.png?c=2&_gl=1*evk1u4*_gcl_au*MTI3MjE3OTk1MC4xNzQ5NDYyMjYx*_ga*Mzc0NDMwMzkyLjE3NDk0NjIyNjI.*_ga_JSPEFFCPBT*czE3NDk0NjIyNjIkbzEkZzAkdDE3NDk0NjIyNjIkajYwJGwwJGgyMjgwMjU2ODY.)
 
+
+## VERILOG PRACTICE
+Design code
+```python
+module four_bit_comparator(
+	input [3:0] a,
+	input [3:0] b,
+	output grt,
+	output eql,
+	output sml
+);
+
+assign grt = (a>b);
+assign eql = (a==b);
+assign sml = (a<b);
+
+endmodule
+```
+Testbench
+```python
+
+## Switches
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {a[0]}]
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports {a[1]}]
+set_property -dict { PACKAGE_PIN W16   IOSTANDARD LVCMOS33 } [get_ports {a[2]}]
+set_property -dict { PACKAGE_PIN W17   IOSTANDARD LVCMOS33 } [get_ports {a[3]}]
+set_property -dict { PACKAGE_PIN W15   IOSTANDARD LVCMOS33 } [get_ports {b[0]}]
+set_property -dict { PACKAGE_PIN V15   IOSTANDARD LVCMOS33 } [get_ports {b[1]}]
+set_property -dict { PACKAGE_PIN W14   IOSTANDARD LVCMOS33 } [get_ports {b[2]}]
+set_property -dict { PACKAGE_PIN W13   IOSTANDARD LVCMOS33 } [get_ports {b[3]}]
+
+## LEDs
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {grt}]
+set_property -dict { PACKAGE_PIN E19   IOSTANDARD LVCMOS33 } [get_ports {eql}]
+set_property -dict { PACKAGE_PIN U19   IOSTANDARD LVCMOS33 } [get_ports {sml}]
+
+set_property CONFIG_VOLTAGE 3.3 [current_design]
+set_property CFGBVS VCCO [current_design]
+
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
+set_property BITSTREAM.CONFIG.CONFIGRATE 33 [current_design]
+set_property CONFIG_MODE SPIx4 [current_design]
+```
+![WhatsApp Image 2025-06-06 at 21 44 13_dac94ac0](https://github.com/user-attachments/assets/333fa150-7497-4302-9d91-44f691dd83e1)
+
+
 ## RESOURCES
 ### LECTURE NOTES
   1. [Intro](https://github.com/silicon-vlsi/SI-2025-DigitalVLSI/blob/main/docs/L1_Introduction_Course_Outline.pdf)
